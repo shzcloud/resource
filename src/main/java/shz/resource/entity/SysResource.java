@@ -1,7 +1,6 @@
 package shz.resource.entity;
 
 import shz.orm.annotation.Column;
-import shz.orm.annotation.Id;
 import shz.orm.annotation.Table;
 
 import java.time.LocalDateTime;
@@ -9,7 +8,6 @@ import java.util.Arrays;
 
 @Table("sys_resource")
 public class SysResource {
-    @Id
     private Long id;
     private LocalDateTime createTime;
     private LocalDateTime updateTime;

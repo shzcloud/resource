@@ -361,6 +361,6 @@ public class DefaultResourceServer implements ResourceServer {
 
     @Override
     public final PageInfo<SysResource> page(PageVo<QueryResourceVo, SysResource> pageVo) {
-        return jdbcService.page(pageVo.map(), SysResource.class, null, jdbcService.whereSql(jdbcService.nonNullClassInfo(SysResource.class), pageVo.getData(), Boolean.FALSE, true));
+        return jdbcService.page(pageVo.simple(), SysResource.class, null, jdbcService.whereSql(SysResource.class, pageVo.getData(), Boolean.FALSE, true));
     }
 }

@@ -46,12 +46,12 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <junit-jupiter.version>5.9.2</junit-jupiter.version>
         <slf4j.version>2.0.5</slf4j.version>
-        <shz-core.version>1.1.4</shz-core.version>
+        <shz-core.version>1.1.7</shz-core.version>
         <shz-ast.version>1.0.1</shz-ast.version>
         <shz-spring-bean.version>1.0.5</shz-spring-bean.version>
-        <shz-spring.version>1.1.6</shz-spring.version>
-        <shz-orm.version>1.2.6</shz-orm.version>
-        <shz-jdbc.version>1.2.6</shz-jdbc.version>
+        <shz-spring.version>1.1.8</shz-spring.version>
+        <shz-orm.version>1.2.9</shz-orm.version>
+        <shz-jdbc.version>1.2.9</shz-jdbc.version>
         <spring.boot.version>2.7.4</spring.boot.version>
         <mysql.version>8.0.30</mysql.version>
     </properties>
