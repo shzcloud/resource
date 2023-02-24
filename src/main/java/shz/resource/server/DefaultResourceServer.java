@@ -223,7 +223,7 @@ public class DefaultResourceServer implements ResourceServer {
         resource.setUseSecondPath(useSecondPath);
         File file = getFile(resource);
         if (file == null) return;
-        DownloadHelp.download(contentType(resource.getExtension()), resource.getFilename(), IOHelp.newBufferedInputStream(file.toPath()), offset == null ? 0 : offset);
+        DownloadHelp.download(contentType(resource.getExtension()), resource.getFilename(), file, offset == null ? 0 : offset);
     }
 
     protected String contentType(String extension) {
